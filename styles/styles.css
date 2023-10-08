@@ -52,12 +52,17 @@
     flex-basis: auto;
     width: 60%;
     align-items: stretch;
-    color: white;
+    border: stroke #555;
+    background-color: rgba(232, 232, 232, 0.9);
+    color: black;
+    border-style: solid;
   }
   
   nav > li > a:hover {
-    background-color: #ddd;
-    color: black;
+    border-color: #fe8502;
+    background-color: rgba(255, 165, 0, 0.4);
+    color: white;
+    border-width: 5px;
   }
 
   section {
@@ -166,6 +171,36 @@
     flex-basis: 50%;
   }
 
+  .Search_bar {
+    width: 100%;
+  }
+
+  .Search_bar > form {
+    display: flexbox;
+    flex-direction: row;
+  }
+
+  .Search_bar > form * {
+    flex-basis: 10%;
+    color: orangered;
+  }
+
+  .Search_bar input[type=text]{
+    width: 70%;
+    flex-basis: 80%;
+  }
+
+  .Search_bar button {
+    visibility: visible;
+    background-color: #ddd;
+    color: #bbb;
+  }
+
+  .Search_bar button:hover {
+    background-color: #bbb;
+    color: white;
+  }
+
   @media screen and (max-width: 700px){
     .info {
         flex-direction: column;
@@ -173,5 +208,9 @@
 
     .info > div {
         max-width: 98%;
+    }
+
+    .Search_bar button {
+        visibility: hidden;
     }
   }
