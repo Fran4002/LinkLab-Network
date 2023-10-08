@@ -43,6 +43,7 @@ Our platform is designed to empower users by providing them with a dynamic and u
    - Flexibility: Our platform offers flexibility in terms of project selection and participation. You can choose projects that align with your interests, availability, and expertise, allowing you to balance your commitments effectively.
 
    - Access to Resources: Many projects on our platform come with access to resources, data, and tools that can be valuable for your research. This access can streamline your work and enhance the quality of your contributions.
+![image](https://github.com/Fran4002/static_web/blob/main/src/images/Open_science.jpg?raw=true)
 ## 🌍 What do we hope to achieve?
 
 Establish an open-access global hub for researchers and collaborators across every scientific field. Share ongoing project information, enabling skill-driven collaborations from anywhere.
