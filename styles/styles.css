@@ -4,7 +4,7 @@
   }
   
   body {
-    background-image: url("../src/images/background.webp"); /*#2574DA*/
+    background-image: url("../src/images/background.jgp"); /*#2574DA*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,7 +23,7 @@
   }
 
   .Profile {
-    /*margin-bottom: -2.5%;*/
+    margin-bottom: -2.5%;*/
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
